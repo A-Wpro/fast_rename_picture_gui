@@ -96,6 +96,10 @@ def Rename():
             os.rename(onlyfiles[0],renamed_dir+"/"+new_name+".jpg")
         onlyfiles.pop(0)
 
+def dont():
+    onlyfiles.pop(0)
+    
+
     
 Rename = Button(window, text="Rename Image", command=Rename)
 
@@ -104,6 +108,10 @@ Rename.grid(column=0, row=3)
 Next = Button(window, text="Next image", command=button1)
 
 Next.grid(column=0, row=4)
+
+dontRename = Button(window, text="don't Rename", command=dont)
+
+dontRename.grid(column=0, row=6)
 
 window.mainloop()
 
