@@ -1,7 +1,7 @@
 # fast_rename_picture_gui
 tkinter oriented gui to fast rename picture with 4 tag, usefull to create dataset manualy
 
-!!!! click on next file to start  !!!
+!!!! click on next image button to start  !!!
 
 it's detected if there is same file or not
 
